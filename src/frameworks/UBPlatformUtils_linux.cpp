@@ -43,7 +43,7 @@
 #include "core/UBSettings.h"
 #include "gui/UBMainWindow.h"
 
-#ifdef Q_OS_FREEBSD
+#ifndef Q_OS_FREEBSD
 static OnboardListener* listener = nullptr;
 #endif
 
